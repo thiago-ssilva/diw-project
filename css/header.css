@@ -1,0 +1,44 @@
+.header {
+    color: var(--white);
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background-image: url("../img/bg_texture.jpg");
+    background-repeat: repeat;
+    background-size: 100px 100px;
+    height: var(--header-height);
+    z-index: 1;
+}
+
+.header__logo {
+    height: 48px;
+}
+
+.menu {
+    display: flex;
+    margin-left: 1rem;
+}
+
+.menu__item {
+    display: block;
+}
+
+.menu__link {
+    padding: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.menu__link--active,
+.menu__link:hover {
+    background-color: var(--yellow);
+    padding: 1.5rem;
+    color: var(--black);
+}
+
+.menu__link--active {
+    background-color: var(--yellow-light);
+    box-shadow: 0 0 5px var(--black); 
+}

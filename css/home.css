@@ -1,0 +1,86 @@
+.banner {
+    width: auto;
+    height: 500px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner::after {
+    content: "";
+    background: url("../img/hero-banner.jpg");
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+}
+
+.btn {
+    border: 2px solid var(--white);
+    background-color: transparent;
+    color: var(--white);
+    padding: 14px 28px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.container {
+    padding-left: calc((100% - 940px)/2);
+    padding-right: calc((100% - 940px)/2);
+}
+
+.divider-wrap {
+    display: flex;
+    justify-content: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.divider {
+    height: 5rem;
+    display: inline-block;
+    border-left-width: 0.4rem;
+    border-style: double;
+    border-color: var(--yellow);
+}
+
+.about,
+.reservation {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.about__content {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    column-gap: 2rem;
+    align-items: center;
+}
+
+.about__description {
+    line-height: 2rem;
+    font-size: .9rem;
+    letter-spacing: 2px;
+}
+
+
+.reservation__form {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.reservation .submit {
+    margin-top: 1rem;
+}

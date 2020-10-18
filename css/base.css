@@ -1,0 +1,58 @@
+:root {
+    --montserrat: 'Montserrat', sans-serif;
+    --font-size: 16px;
+    --header-height: 64px;
+    --white: #FFF;
+    --black: rgba(0,0,0,.87);
+    --yellow-light: rgba(255, 200, 0, 1);
+    --yellow: rgba(255, 200, 0, 0.9);
+    --grey: #f2f2f2e1;
+}
+
+html {
+    font-size: var(--font-size);
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--montserrat), sans-serif;
+    background-image: url("../img/bg_texture.jpg");
+    background-repeat: repeat;
+    background-size: 100px 100px;
+    padding-top: var(--header-height);
+    color: var(--white);
+}
+
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.form-group {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.form-group label {
+    display: block;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group select {
+    display: block;
+    min-height: 40px;
+    padding: 5px 14px;
+    border-radius: 3px;
+    line-height: 1.4px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: .9rem;
+    text-indent: 10px;
+    border: none;
+}
+
+

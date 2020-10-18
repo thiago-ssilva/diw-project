@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8" />
+        <title>Home</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link href="css/reset.css" rel="stylesheet" />
+        <link href="css/base.css" rel="stylesheet" />
+        <link href="css/header.css" rel="stylesheet" />
+        <link href="css/home.css" rel="stylesheet" />
+        <link href="css/footer.css" rel="stylesheet" />
+    </head>
+    <body>
+        <header class="header container">
+            <img class="header__logo" src="img/logo.png" alt="Logo" />
+            <nav>
+                <ul class="menu">
+                    <li class="menu__item menu__item"><a href="#" class="menu__link menu__link--active">Home</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Cardápio</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Localização</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="banner">
+                <a href="#reservation">
+                    <button class="btn" type="button">
+                        Faça sua reserva
+                    </button>
+                </a>
+            </div>
+            <div class="container">
+                <div class="divider-wrap">
+                    <div class="divider"></div>
+                </div>
+                <section id="about" class="about">
+                    <h1>SOBRE O RODAPIZZA</h1>
+                    <div class="about__content">
+                        <div class="about__description">
+                            <p>O Restaurante Rodapizza Adriane Kronhardt, de família pioneira em atendimento com rodízio de pizzas no estado.</p>
+                            <p>Possui um amplo espaço disposto em um ambiente confortável e agradável. Ótima localização no centro da cidade, próximo aos bancos, prefeitura, comércio e rodoviária. A qualidade dos serviços oferecidos pelos empreendedores no Restaurante é garantia de confiança e fidelidade dos clientes.</p>
+                        </div>
+                        <div class="about__image">
+                            <img src="img/about.jpg" class="responsive-img" />
+                        </div>
+                    </div>
+                </section>
+                <div class="divider-wrap">
+                    <div class="divider"></div>
+                </div>
+                <section id="reservation" class="reservation">
+                    <h1>RESERVA</h1>
+                    <form class="reservation__form">
+                        <div class="form-group">
+                            <label>Nome</label>
+                            <input type="text" name="name" placeholder="Nome" />
+                        </div>
+                        <div class="form-group">
+                            <label>Telefone</label>
+                            <input type="tel" name="phone" placeholder="Telefone" />
+                        </div>
+                        <div class="form-group">
+                            <label>E-mail</label>
+                            <input type="email" name="email" placeholder="E-mail" />
+                        </div>
+                        <div class="form-group">
+                            <label>Tipo</label>
+                            <select name="type">
+                                <option value="AN">Aniversário</option>
+                                <option value="CO">Confraternização</option>
+                                <option value="OU">Outros</option>
+                            </select>
+                        </div>
+                        <button class="btn submit" type="submit">SOLICITAR RESERVA</button>
+                    </form>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <p>Copyright © 2020 Roddapizza – Todos os direitos Reservados</p>
+        </footer>
+    </body>
+</html>
