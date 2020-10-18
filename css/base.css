@@ -23,6 +23,11 @@ body {
     color: var(--white);
 }
 
+.container {
+    padding-left: calc((100% - 940px)/2);
+    padding-right: calc((100% - 940px)/2);
+}
+
 .responsive-img {
     max-width: 100%;
     height: auto;
@@ -47,7 +52,7 @@ body {
 .btn-primary {
     background-color: var(--yellow-light);
     color: var(--black);
-    border: 2px solid var(--black);
+    border: none;
 }
 
 
@@ -65,7 +70,8 @@ body {
 }
 
 .form-group input,
-.form-group select {
+.form-group select,
+.form-group textarea {
     display: block;
     min-height: 40px;
     padding: 5px 14px;

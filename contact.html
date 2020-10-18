@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8" />
+        <title>Home</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="css/reset.css" rel="stylesheet" />
+        <link href="css/base.css" rel="stylesheet" />
+        <link href="css/header.css" rel="stylesheet" />
+        <link href="css/footer.css" rel="stylesheet" />
+        <link href="css/contact.css" rel="stylesheet" />
+    </head>
+    <body>
+        <header class="header">
+            <img class="header__logo" src="img/logo.png" alt="Logo" />
+            <nav>
+                <ul class="menu">
+                    <li class="menu__item"><a href="index.html" class="menu__link">Home</a></li>
+                    <li class="menu__item"><a href="pizzas.html" class="menu__link">Cardápio</a></li>
+                    <li class="menu__item"><a href="contact.html#localization" class="menu__link">Localização</a></li>
+                    <li class="menu__item"><a href="contact.html" class="menu__link menu__link--active">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="container">
+                <section id="contact" class='contact'>
+                    <h1>ENTRE EM CONTATO</h1>
+                    <form class="contact__form">
+                        <div class="form-group">
+                            <label>Nome</label>
+                            <input type="text" name="name" placeholder="Nome" />
+                        </div>
+                        <div class="form-group">
+                            <label>Telefone</label>
+                            <input type="tel" name="phone" placeholder="Telefone" />
+                        </div>
+                        <div class="form-group">
+                            <label>E-mail</label>
+                            <input type="email" name="email" placeholder="E-mail" />
+                        </div>
+                        <div class="form-group">
+                            <label>Mensagem</label>
+                            <textarea name="message"></textarea>
+                        </div>
+                        <button class="btn btn-primary" type="submit">ENVIAR</button>
+                    </form>
+                </section>
+                <div class="divider-wrap">
+                    <div class="divider"></div>
+                </div>
+                <section id="localization" class="localization">
+                    <h1>NOS ENCONTRE</h1>
+                    <div class="localization__content">
+                        <div>
+                            <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
+                            R. Cônego Pedro Wagner, 590 - Centro, Gravataí - RS, 94010-160
+                        </div>
+                        <iframe
+                            title="Map address"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110716.59548978614!2d-51.141508851432334!3d-29.867341947830074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95190b4999dab927%3A0xd78b9b1c6646f4f6!2sRodapizza%20Pizzaria%20e%20Buffet!5e0!3m2!1spt-BR!2sbr!4v1603049813091!5m2!1spt-BR!2sbr"
+                            width="600" height="450"
+                            frameborder="0"
+                            style="border:0;"
+                            allowfullscreen=""
+                            aria-hidden="false"
+                            tabindex="0"
+                        ></iframe>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer_description">
+                <p>Copyright © 2020 Roddapizza – Todos os direitos Reservados</p>
+            </div>
+            <div class="footer__icons">
+                <a href="https://www.instagram.com/rodapizzaofficial/" target="_blank" class="footer__link" rel="noopener noreferrer">
+                    <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.facebook.com/RodaPizzaoficial/" target="_blank" class="footer__link" rel="noopener noreferrer">
+                    <i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+                </a>
+            </div>
+        </footer>
+    </body>
+</html>
