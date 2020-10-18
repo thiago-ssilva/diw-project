@@ -1,0 +1,4 @@
+.swiper-container .swiper-button-prev,
+.swiper-container .swiper-button-next {
+    color: var(--white);
+}
