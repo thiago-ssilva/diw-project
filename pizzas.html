@@ -9,11 +9,12 @@
         />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-        <link href="css/reset.css" rel="stylesheet" type="text/css" />
-        <link href="css/base.css" type="text/css" rel="stylesheet" />
-        <link href="css/header.css" type="text/css"  rel="stylesheet" />
-        <link href="css/footer.css" type="text/css" rel="stylesheet" />
-        <link href="css/pizzas.css" type="text/css" rel="stylesheet" />
+        <link rel="stylesheet" href="css/tingle.min.css">
+        <link href="css/reset.css" rel="stylesheet"/>
+        <link href="css/base.css" rel="stylesheet"/>
+        <link href="css/header.css" rel="stylesheet"/>
+        <link href="css/footer.css" rel="stylesheet"/>
+        <link href="css/pizzas.css" rel="stylesheet"/>
     </head>
     <body>
         <header class="header container">
@@ -49,9 +50,19 @@
                         <img class="card__img responsive-img" src="img/pizzas/calabresa.png" alt="Calabresa" />
                         <div class="card__info">
                             <h2 class="card__title">Calabresa</h2>
+                            <div class="card__description d-none">
+                                <ul>
+                                    <li>Mussarela</li>
+                                    <li>Calabresa</li>
+                                    <li>Lâminas de cebola</li>
+                                    <li>Azeitonas selecionadas</li>
+                                </ul>
+                            </div>
                             <div class="card__actions">
-                                <button class="btn btn-secondary" type="button">Detalhes</button>
-                                <button class="btn btn-primary" type="button">Pedir Agora</button>
+                                <button class="btn btn-secondary" type="button" data-toggle="modal">Detalhes</button>
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.ifood.com.br/delivery/gravatai-rs/rodapizza-centro/48ae05de-6118-48ec-98f2-bd1a11fea938">
+                                    <button class="btn btn-primary" type="button">Pedir Agora</button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -59,9 +70,19 @@
                         <img class="card__img responsive-img" src="img/pizzas/alho_oleo.png" alt="Calabresa" />
                         <div class="card__info">
                             <h2 class="card__title">Alho e Óleo</h2>
+                            <div class="card__description d-none">
+                                <ul>
+                                    <li>Mussarela</li>
+                                    <li>Molho de tomate</li>
+                                    <li>Alho</li>
+                                    <li>Óleo</li>
+                                </ul>
+                            </div>
                             <div class="card__actions">
-                                <button class="btn btn-secondary" type="button">Detalhes</button>
-                                <button class="btn btn-primary" type="button">Pedir Agora</button>
+                                <button class="btn btn-secondary" type="button" data-toggle="modal">Detalhes</button>
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.ifood.com.br/delivery/gravatai-rs/rodapizza-centro/48ae05de-6118-48ec-98f2-bd1a11fea938">
+                                    <button class="btn btn-primary" type="button">Pedir Agora</button>
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.ifood.com.br/delivery/gravatai-rs/rodapizza-centro/48ae05de-6118-48ec-98f2-bd1a11fea938">
                             </div>
                         </div>
                     </div>
@@ -69,9 +90,19 @@
                         <img class="card__img responsive-img" src="img/pizzas/bacon.png" alt="Calabresa" />
                         <div class="card__info">
                             <h2 class="card__title">Bacon</h2>
+                            <div class="card__description d-none">
+                                <ul>
+                                    <li>Mussarela</li>
+                                    <li>Molho de tomate</li>
+                                    <li>Bacon assado</li>
+                                    <li>Rodelas de tomate</li>
+                                </ul>
+                            </div>
                             <div class="card__actions">
-                                <button class="btn btn-secondary" type="button">Detalhes</button>
-                                <button class="btn btn-primary" type="button">Pedir Agora</button>
+                                <button class="btn btn-secondary" type="button" data-toggle="modal">Detalhes</button>
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.ifood.com.br/delivery/gravatai-rs/rodapizza-centro/48ae05de-6118-48ec-98f2-bd1a11fea938">
+                                    <button class="btn btn-primary" type="button">Pedir Agora</button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -79,9 +110,19 @@
                         <img class="card__img responsive-img" src="img/pizzas/basca.png" alt="Calabresa" />
                         <div class="card__info">
                             <h2 class="card__title">Basca</h2>
+                            <div class="card__description d-none">
+                                <ul>
+                                    <li>Mussarela</li>
+                                    <li>Requeijão cremoso</li>
+                                    <li>Bacon assado</li>
+                                    <li>Rodelas de tomate</li>
+                                </ul>
+                            </div>
                             <div class="card__actions">
-                                <button class="btn btn-secondary" type="button">Detalhes</button>
-                                <button class="btn btn-primary" type="button">Pedir Agora</button>
+                                <button class="btn btn-secondary" type="button" data-toggle="modal">Detalhes</button>
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.ifood.com.br/delivery/gravatai-rs/rodapizza-centro/48ae05de-6118-48ec-98f2-bd1a11fea938">
+                                    <button class="btn btn-primary" type="button">Pedir Agora</button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -89,9 +130,19 @@
                         <img class="card__img responsive-img" src="img/pizzas/cebola_manteiga.png" alt="Calabresa" />
                         <div class="card__info">
                             <h2 class="card__title">Cebolinha na manteiga</h2>
+                            <div class="card__description d-none">
+                                <ul>
+                                    <li>Mussarela</li>
+                                    <li>Cebola picada</li>
+                                    <li>Molho de tomate</li>
+                                    <li>Cebolinha na manteiga</li>
+                                </ul>
+                            </div>
                             <div class="card__actions">
-                                <button class="btn btn-secondary" type="button">Detalhes</button>
-                                <button class="btn btn-primary" type="button">Pedir Agora</button>
+                                <button class="btn btn-secondary" type="button" data-toggle="modal">Detalhes</button>
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.ifood.com.br/delivery/gravatai-rs/rodapizza-centro/48ae05de-6118-48ec-98f2-bd1a11fea938">
+                                    <button class="btn btn-primary" type="button">Pedir Agora</button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -99,19 +150,41 @@
                         <img class="card__img responsive-img" src="img/pizzas/cinco_queijos.png" alt="Calabresa" />
                         <div class="card__info">
                             <h2 class="card__title">Cinco queijos</h2>
+                            <div class="card__description d-none">
+                                <ul>
+                                    <li>Mussarela</li>
+                                    <li>Molho de toamte</li>
+                                    <li>Requeijão cremoso</li>
+                                    <li>Provolone</li>
+                                    <li>Gorgonzola</li>
+                                    <li>Parmesão</li>
+                                </ul>
+                            </div>
                             <div class="card__actions">
-                                <button class="btn btn-secondary" type="button">Detalhes</button>
-                                <button class="btn btn-primary" type="button">Pedir Agora</button>
+                                <button class="btn btn-secondary" type="button" data-toggle="modal">Detalhes</button>
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.ifood.com.br/delivery/gravatai-rs/rodapizza-centro/48ae05de-6118-48ec-98f2-bd1a11fea938">
+                                    <button class="btn btn-primary" type="button">Pedir Agora</button>
+                                </a>
                             </div>
                         </div>
                     </div>
                     <div class="card">
                         <img class="card__img responsive-img" src="img/pizzas/coracao.png" alt="Calabresa" />
                         <div class="card__info">
-                            <h2 class="card__title">Cinco queijos</h2>
+                            <h2 class="card__title">Coração</h2>
+                            <div class="card__description d-none">
+                                <ul>
+                                    <li>Mussarela</li>
+                                    <li>Molho de tomate</li>
+                                    <li>Coração ao molho temperado</li>
+                                    <li>Orégano</li>
+                                </ul>
+                            </div>
                             <div class="card__actions">
-                                <button class="btn btn-secondary" type="button">Detalhes</button>
-                                <button class="btn btn-primary" type="button">Pedir Agora</button>
+                                <button class="btn btn-secondary" type="button" data-toggle="modal">Detalhes</button>
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.ifood.com.br/delivery/gravatai-rs/rodapizza-centro/48ae05de-6118-48ec-98f2-bd1a11fea938">
+                                    <button class="btn btn-primary" type="button">Pedir Agora</button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -119,9 +192,18 @@
                         <img class="card__img responsive-img" src="img/pizzas/mussarela.png" alt="Calabresa" />
                         <div class="card__info">
                             <h2 class="card__title">Mussarela</h2>
+                            <div class="card__description d-none">
+                                <ul>
+                                    <li>Mussarela</li>
+                                    <li>Finas fatias de tomate</li>
+                                    <li>Orégano chileno</li>
+                                </ul>
+                            </div>
                             <div class="card__actions">
-                                <button class="btn btn-secondary" type="button">Detalhes</button>
-                                <button class="btn btn-primary" type="button">Pedir Agora</button>
+                                <button class="btn btn-secondary" type="button" data-toggle="modal">Detalhes</button>
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.ifood.com.br/delivery/gravatai-rs/rodapizza-centro/48ae05de-6118-48ec-98f2-bd1a11fea938">
+                                    <button class="btn btn-primary" type="button">Pedir Agora</button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -129,9 +211,18 @@
                         <img class="card__img responsive-img" src="img/pizzas/palmito.png" alt="Calabresa" />
                         <div class="card__info">
                             <h2 class="card__title">Palmito</h2>
+                            <div class="card__description d-none">
+                                <ul>
+                                    <li>Mussarela</li>
+                                    <li>Molho de tomate</li>
+                                    <li>Palmito picado</li>
+                                </ul>
+                            </div>
                             <div class="card__actions">
-                                <button class="btn btn-secondary" type="button">Detalhes</button>
-                                <button class="btn btn-primary" type="button">Pedir Agora</button>
+                                <button class="btn btn-secondary" type="button" data-toggle="modal">Detalhes</button>
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.ifood.com.br/delivery/gravatai-rs/rodapizza-centro/48ae05de-6118-48ec-98f2-bd1a11fea938">
+                                    <button class="btn btn-primary" type="button">Pedir Agora</button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -139,9 +230,18 @@
                         <img class="card__img responsive-img" src="img/pizzas/strogonoff.png" alt="Calabresa" />
                         <div class="card__info">
                             <h2 class="card__title">Strogonoff</h2>
+                            <div class="card__description d-none">
+                                <ul>
+                                    <li>Mussarela</li>
+                                    <li>Molho de tomate</li>
+                                    <li>Strogonoff de carne</li>
+                                </ul>
+                            </div>
                             <div class="card__actions">
-                                <button class="btn btn-secondary" type="button">Detalhes</button>
-                                <button class="btn btn-primary" type="button">Pedir Agora</button>
+                                <button class="btn btn-secondary" type="button" data-toggle="modal">Detalhes</button>
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.ifood.com.br/delivery/gravatai-rs/rodapizza-centro/48ae05de-6118-48ec-98f2-bd1a11fea938">
+                                    <button class="btn btn-primary" type="button">Pedir Agora</button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -149,9 +249,22 @@
                         <img class="card__img responsive-img" src="img/pizzas/suprema.png" alt="Calabresa" />
                         <div class="card__info">
                             <h2 class="card__title">Suprema</h2>
+                            <div class="card__description d-none">
+                                <ul>
+                                    <li>Mussarela</li>
+                                    <li>Molho de tomate</li>
+                                    <li>Cebola picada</li>
+                                    <li>Azeitonas fatiadas</li>
+                                    <li>Linguiça calabresa picante</li>
+                                    <li>Fatias de champignon</li>
+                                    <li>Pimentão picado</li>
+                                </ul>
+                            </div>
                             <div class="card__actions">
-                                <button class="btn btn-secondary" type="button">Detalhes</button>
-                                <button class="btn btn-primary" type="button">Pedir Agora</button>
+                                <button class="btn btn-secondary" type="button" data-toggle="modal">Detalhes</button>
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.ifood.com.br/delivery/gravatai-rs/rodapizza-centro/48ae05de-6118-48ec-98f2-bd1a11fea938">
+                                    <button class="btn btn-primary" type="button">Pedir Agora</button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -159,13 +272,26 @@
                         <img class="card__img responsive-img" src="img/pizzas/toscana.png" alt="Calabresa" />
                         <div class="card__info">
                             <h2 class="card__title">Toscana</h2>
+                            <div class="card__description d-none">
+                                <ul>
+                                    <li>Mussarela</li>
+                                    <li>Molho de tomate</li>
+                                    <li>Linguiça calabresa fatiada</li>
+                                    <li>Rodelas de tomate</li>
+                                    <li>Manjericão</li>
+                                    <li>Fatias de tomate</li>
+                                </ul>
+                            </div>
                             <div class="card__actions">
-                                <button class="btn btn-secondary" type="button">Detalhes</button>
-                                <button class="btn btn-primary" type="button">Pedir Agora</button>
+                                <button class="btn btn-secondary" type="button" data-toggle="modal">Detalhes</button>
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.ifood.com.br/delivery/gravatai-rs/rodapizza-centro/48ae05de-6118-48ec-98f2-bd1a11fea938">
+                                    <button class="btn btn-primary" type="button">Pedir Agora</button>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
+                
             </section>
         </main>
         <footer class="footer">
@@ -182,16 +308,8 @@
             </div>
         </footer>
     </body>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script>
-        var mySwiper = new Swiper('.swiper-container', {
-            loop: true,
-            autoplay: true,
-            // Navigation arrows
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-        })
-    </script>
+    <script src="js/tingle.min.js"></script>
+    <script src="js/pizzas.js"></script>
 </html>

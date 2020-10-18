@@ -36,3 +36,29 @@
 .card__actions {
     margin-top: 1rem;
 }
+
+.details-modal {
+    color: var(--black);
+}
+
+.details-modal .btn-secondary {
+    color: var(--black);
+}
+
+.details-modal .btn-primary {
+    color: var(--white);
+    border: none;
+}
+
+.details-modal__description {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.details-modal li {
+    letter-spacing: 1.4px;
+    margin-top: 2rem;
+}
