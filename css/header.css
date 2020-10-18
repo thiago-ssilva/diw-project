@@ -11,6 +11,8 @@
     background-size: 100px 100px;
     height: var(--header-height);
     z-index: 1;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .header__logo {

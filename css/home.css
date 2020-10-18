@@ -19,44 +19,14 @@
     z-index: -1;   
 }
 
-.btn {
-    border: 2px solid var(--white);
-    background-color: transparent;
-    color: var(--white);
-    padding: 14px 28px;
-    cursor: pointer;
-    text-transform: uppercase;
-    font-weight: 700;
-}
-
 .container {
     padding-left: calc((100% - 940px)/2);
     padding-right: calc((100% - 940px)/2);
 }
 
-.divider-wrap {
-    display: flex;
-    justify-content: center;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-}
-
-.divider {
-    height: 5rem;
-    display: inline-block;
-    border-left-width: 0.4rem;
-    border-style: double;
-    border-color: var(--yellow);
-}
-
 .about,
 .reservation {
     text-align: center;
-}
-
-h1 {
-    font-size: 2rem;
-    font-weight: 700;
 }
 
 .about__content {

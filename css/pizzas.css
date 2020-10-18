@@ -1,0 +1,38 @@
+.swiper-container {
+    height: 500px;
+}
+
+.swiper-container .swiper-button-prev,
+.swiper-container .swiper-button-next {
+    color: var(--white);
+}
+
+.pizzas {
+    text-align: center;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+    justify-content: center;
+}
+
+.card {
+    text-align: left;
+    display: flex;
+    width: calc(100%  - 16px) / 4;
+    padding: 0.5rem;
+}
+
+.card__title {
+    letter-spacing: 1.4px;
+}
+
+.card__img {
+    width: 120px;
+}
+
+.card__actions {
+    margin-top: 1rem;
+}

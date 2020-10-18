@@ -28,6 +28,29 @@ body {
     height: auto;
 }
 
+.btn {
+    border: 2px solid var(--white);
+    background-color: transparent;
+    color: var(--white);
+    padding: 14px 28px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.btn-secondary {
+    border: none;
+    text-transform: none;
+    text-decoration: underline;
+}
+
+.btn-primary {
+    background-color: var(--yellow-light);
+    color: var(--black);
+    border: 2px solid var(--black);
+}
+
+
 .form-group {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -55,4 +78,26 @@ body {
     border: none;
 }
 
+.divider-wrap {
+    display: flex;
+    justify-content: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
 
+.divider {
+    height: 5rem;
+    display: inline-block;
+    border-left-width: 0.4rem;
+    border-style: double;
+    border-color: var(--yellow);
+}
+
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+h2 {
+    font-size: 1.2rem;
+}
